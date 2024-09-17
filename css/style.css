@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f8fc;
+ 
+}
+
+/*header*/
+
+header{
+   max-width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin:10px;
+}
+
+header div{
+	
+   padding-right:15px;
+
+}
+#logo{
+   padding-top:10px;
+
+}
+
+#logo:hover{
+   cursor:pointer;
+}
+
+.header-search{
+   padding-top:10px;
+   display:flex;
+   align-items:center;
+}
+
+.header-search input{
+   border-radius: 4px;
+
+}
+
+.green-dot{
+   color: #1E8E3E;
+   font-size: 24px;
+}
+.network-status{
+   display:flex;
+   align-items: center;
+
+}
+
+.btn-active{
+   border:none;
+}
+
+.img-profile{
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-icon{
+   margin: 10px;
+   display:flex;
+   flex-direction: column;
+   margin-bottom:18px;
+   border:none;
+}
+.btn-menu{ 
+   border:none;
+   padding:15px;
+   border-radius: 50%;
+}
+
+
+.btn-menu:hover{ 
+   cursor:pointer;
+   border:none;
+   background-color:#D3E3FD;
+}
+
+
+
+.container{
+   display:flex;
+   
+}
+
+.fixed-side-nav{
+   display:flex;
+   flex-direction:column;
+}
+
+
+
+.icon-container{
+   margin-bottom: 20px;
+   margin: 6px;
+   margin-left:12px;
+   display:flex;
+   flex-direction: column;
+   font-size: 15px;
+}
+
+.icon-container small{
+   text-align: center;
+}
+
+
+
+.btn-mail{ 
+   border:none;
+   padding:4px 8px;
+   border-radius: 45%;
+   background-color:#D3E3FD;
+   
+}
+
+.btn-mail:hover{ 
+   cursor:pointer;
+   border:none;
+}
+
+
+.btn-chat{ 
+   border:none;
+   padding:10px;
+}
+
+.btn-chat:hover{ 
+   cursor:pointer;
+   border:none;
+   border-radius: 50%;
+   background-color:#DCDCDC;
+}
+.btn-meet{ 
+   border:none;
+   padding:10px;
+}
+
+.btn-meet:hover{ 
+   cursor:pointer;
+   border-radius: 50%;
+   background-color:#DCDCDC;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex{
+   display:flex;
+}
