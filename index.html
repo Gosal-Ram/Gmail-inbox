@@ -3,13 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>Gmail-clone</title>
-     <link rel="icon" type="image/x-icon" href="assets/images/logo-16.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo-16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"/>
     <link rel="stylesheet" href="./css/style.css" />
    </head>
    <body>
@@ -21,20 +19,30 @@
 	      <img src="assets/images/logo_gmail.png" alt="logo" width="109" height="40"/>
 	   </div>
 	   <div class="header-search" >
-	      <img src="assets/images/search.png" alt="search-icon" width="24"/>
-              <input type="search" name="user-search" placeholder="Search Mail"  />
-	      <img src="assets/images/equalizer.png" alt="filter-icon" width="24"/>
+	      <div class="header-search-lens">
+	         <img src="assets/images/search.png" alt="search-icon" width="24"/>
+	      </div>
+	      <div class="header-search-input">
+	         <input type="search" name="user-search" placeholder="Search Mail" class="input-box" />
+	      </div>
+	      <div class="header-search-equalizer">
+	         <img src="assets/images/equalizer.png" alt="filter-icon" width="24"/>
+	      </div>
            </div>
-	   <div class="network-status" >
-	     <div class="green-dot"> &#9679;</div>
-              <button class="btn-active">Active</button>
-	      <img src="assets/images/angle-down-solid.svg" alt="down-icon" width="24"/>
-           </div>
-	   <div class="img-question"><img src="assets/images/circle-question-regular.svg" alt="support-icon" width="24"/></div>
-	   <div class="img-settings"><img src="assets/images/settings.png" alt="settings-icon" width="24"/></div>
-	   <div class="img-apps"><img src="assets/images/apps.png" alt="apps" width="24"/></div>
-	   <div class="img-profile"><img src="assets/images/profile.png" alt="profile" width="126" height=""/></div>
-	   <div></div>
+	   <div class="network-status-settings" >
+		<div class="active-list">
+	     	   <b class="green-dot"> &#9679;</b>
+                   <p class="active-txt">Active</p>
+	           <img src="assets/images/angle-down-solid.svg" alt="down-icon" width="12"/>
+                </div>
+	        <a class="img-question"><img src="assets/images/circle-question-regular.svg" alt="support-icon" width="24"/></a>
+	        <a class="img-settings"><img src="assets/images/settings.png" alt="settings-icon" width="24"/></a>
+	    </div>
+	    <div class="apps-profile-container">
+	       <a class="img-apps"><img src="assets/images/apps.png" alt="apps" width="24"/></a
+	       <a class="img-profile"><img src="assets/images/profile.png" alt="profile" width="126" height=""/></a>
+	    </div>
+
 	</header>
 	<div class ="container">
 	   <div class="fixed-side-nav">
@@ -47,12 +55,55 @@
 			<small>Chat</small>
 		</div>
 		<div class="icon-container">
-			<button class="btn-meet"><img src="assets/images/google-meet-svgrepo-com.svg" alt="meet-icon" width="24"/></button>
+			<button class="btn-meet"><img src="assets/images/meet-icon.png" alt="meet-icon" width="24"/></button>
 			<small>Meet</small>
 		</div>
 	   </div>
-	   <div class="left-side-nav"></div>
+
+
+
+	   <div class="left-side-nav">
+          <div class="compose-container">
+            <img src="assets/images/pencil-icon.png" alt="pencil-icon" width="24"/>
+            <span class="compose-txt">Compose</span>
+          </div>
+          <div class="inbox-container">
+            <img src="assets/images/inbox-icon.png" alt="inbox-icon" width="24"/>
+            <span class="inbox-txt">Inbox</span>
+          </div>
+          <div class="nav-container">
+            <img src="assets/images/star-icon.png" alt="inbox-icon" width="24"/>
+            <span class="nav-txt">Starred</span>
+          </div>
+          <div class="nav-container">
+            <img src="assets/images/clock-icon.png" alt="clock-icon" width="24"/>
+            <span class="nav-txt">Snoozed</span>
+          </div>
+          <div class="nav-container">
+            <img src="assets/images/sent-icon.png" alt="inbox-icon" width="24"/>
+            <span class="nav-txt">Sent</span>
+          </div>
+          <div class="nav-container">
+            <img src="assets/images/draft-icon.png" alt="inbox-icon" width="24"/>
+            <span class="nav-txt">Drafts</span>
+          </div>
+          <div class="nav-container">
+            <img src="assets/images/down-arrow.png" alt="inbox-icon" width="24"/>
+            <span class="nav-txt">More</span>
+          </div>
+          <div class="label-container">
+            <span class="label-txt">Labels</span>
+            <img src="assets/images/plus-icon.png" alt="inbox-icon" width="24" height="24"/>
+          </div>
+	   </div>
 	   <div class="content">
+	      <div class="content-header">
+	         
+	      </div>
+	      <div class="content-main">
+	         
+	      </div>
+
 	   	<footer></footer>
 	   </div>
 	   <div class="right-side-nav"></div>
